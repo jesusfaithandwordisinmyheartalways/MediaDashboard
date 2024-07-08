@@ -1,3 +1,18 @@
+
+OVERVIEW :
+
+Social Media Dashboard that displays an overview on different users of followers , subscribers ,and other topics. Grid Layout. Dark/ Light Toggle for User
+
+
+
+SCREENSHOTS:
+![social media dashboard dark toggle](https://github.com/jesusfaithandwordisinmyheartalways/MediaDashboard-reactjs/assets/90214404/a2031805-9121-4d8b-a86d-a6951c3468e5)
+
+
+![social media dashboard](https://github.com/jesusfaithandwordisinmyheartalways/MediaDashboard-reactjs/assets/90214404/123d622b-9dcc-4e30-ab54-723dc43d1be2)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
