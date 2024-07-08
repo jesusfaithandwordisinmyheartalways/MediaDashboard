@@ -1,0 +1,943 @@
+
+
+
+
+
+
+
+
+:root {
+  --blue: blue;
+  --black: black;
+  --green: green;
+  --darkGreen: darkgreen;
+  --white: white;
+  --whiteSmoke: whitesmoke;
+  --skyBlue: skyblue;
+  --dodgerBlue: dodgerblue;
+  --grey: grey;
+  --Orange: orange;
+  --Red:red;
+  --Pink:pink;
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin:0;
+  padding: 0;
+ 
+
+}
+
+
+.dark-theme {
+  background-color:var(--black)
+}
+
+
+
+
+
+
+
+/*---------------------------------NAVBAR---------------------------------------*/
+
+.Nav-Container {
+  overflow: hidden;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+.Nav-Wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-content: center;
+  justify-content: space-around;
+  max-width: 1500px;
+  margin:0 auto;
+  text-align: center;
+  padding: 3em;
+
+}
+
+.Social-Media-Header {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color:black;
+}
+
+.Total-Followers-Header {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -134px;
+  color:black
+}
+
+.toggle-switch {
+  margin-left: 190px;
+}
+
+
+#icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*---------------------------------CONTENT---------------------------------------*/
+
+.Content-Container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Content-Wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content:center;
+  justify-content: space-around;
+  gap:10px;
+  max-width: 1300px;
+  margin:0 auto;
+}
+
+.content-wrapper {
+  background-color:rgba(227, 237, 245, 0.597);
+  border-radius:5px;
+  height: 210px;
+
+}
+
+.content-wrapper-one {
+  border-top: 3px solid var(--Red);
+}
+
+
+.content-wrapper-two {
+border-top: 3px solid var(--skyBlue)
+}
+
+
+.content-wrapper-three {
+  border-top: 3px solid var(--dodgerBlue)
+  }
+
+  .content-wrapper-four {
+    border-top: 3px solid var(--Pink)
+    }
+
+
+
+    .youtube-wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content:center;
+      justify-content: center;
+      margin:0 auto;
+      width: 9px;
+      margin-top: 34px;
+    }
+
+    .youtube-image img {
+      width: 45px;
+      object-fit: contain;
+      margin-top: 8px;
+    }
+
+    .youtube-text {
+      font-size: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--black);
+    }
+
+
+
+    .number-followers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+
+    }
+
+
+
+    .number-followers-wrapper-text {
+      color:var(--black);
+      font-size: 31px;
+      font-family:'Times New Roman', Times, serif ;     
+      font-weight: 700;
+    }
+
+
+    .followers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 3px;
+    }
+
+
+    .followers-wrapper-text {
+      color:rgba(209, 39, 39, 0.71);
+      font-size: 24px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+
+    .youtube-subscribers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top:10px
+    }
+
+
+    .youtube-subscribers-text {
+      color:var(--green);
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+
+
+
+    .twitter-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content:center;
+      justify-content: center;
+      margin:0 auto;
+      width: 9px;
+      margin-top: 30px;
+    }
+
+
+
+    .twitter-image img {
+      width: 45px;
+      object-fit: contain;
+      margin-top: 8px;
+      mix-blend-mode: multiply;
+    }
+
+
+
+    .twitter-text {
+      margin-top: 20px;
+      font-size: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--black);
+    }
+
+
+    .twitter-subscribers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: -7px;
+    }
+
+
+    .twitter-subscribers-text {
+      color:var(--black);
+      font-size: 31px;
+      font-family:'Times New Roman', Times, serif ;     
+      font-weight: 700;
+    }
+
+
+    .twitter-followers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 4px;
+    }
+
+
+
+    .twitter-followers-text {
+      color:var(--skyBlue);
+      font-size: 24px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+
+
+    .twitter-numbers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 6px
+    }
+
+    .twitter-numbers-text {
+      color:green;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+    .facebook-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content:center;
+      justify-content: center;
+      gap:10px;
+      margin:0 auto;
+      width: 9px;
+      margin-top: 30px;
+    }
+
+
+    .fb-image img {
+      width: 30px;
+      object-fit: contain;
+      margin-top: 13px;
+      mix-blend-mode: multiply;
+    }
+
+    .fb-text {
+      margin-top: 20px;
+      font-size: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--black);
+    }
+
+
+    .fb-followers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 5px;
+
+    }
+
+
+    .fb-followers-text {
+      color:var(--black);
+      font-size: 31px;
+      font-family:'Times New Roman', Times, serif ;     
+      font-weight: 700;
+    }
+
+
+    .fb-followers-text-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 4px;
+    }
+
+
+    .fb-followers {
+      color:var(--dodgerBlue);
+      font-size: 24px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .fb-numbers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+    }
+
+    .fb-numbers-text {
+      color:green;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 5px;
+    }
+
+
+
+
+    .instagram-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content:center;
+      justify-content: center;
+      gap:10px;
+      margin:0 auto;
+      width: 9px;
+      margin-top: 30px;
+    }
+
+
+    .instagram-image img {
+      width: 38px;
+      object-fit: contain;
+      margin-top: 13px;
+      mix-blend-mode: multiply;
+    }
+
+
+    .instagram-text {
+      margin-top: 20px;
+      font-size: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--black);
+    }
+
+    .instagram-followers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+    }
+
+
+    .instagram-followers-text {
+      color:var(--black);
+      font-size: 31px;
+      font-family:'Times New Roman', Times, serif ;     
+      font-weight: 700
+    }
+
+
+    .instagram-followers-text-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin-top: 0px;
+    }
+
+
+    .instagram-followers {
+      color:var(--Orange);
+      font-size: 24px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .instagram-numbers-wrapper {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+    }
+
+    .instagram-numbers-text {
+      color:green;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*---------------------------------CONTENT-TWO---------------------------------------*/
+
+
+    .Content-Container-Two {
+      width: 100%;
+      overflow: hidden;
+    }
+
+
+    .Content-Wrapper-Two {
+      display: grid;
+      align-content:center;
+      justify-content: center;
+      margin:0 auto;
+      margin-block:40px;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 30px;
+
+    }
+
+    .content-wrapper-text {
+      margin-left: 68px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*---------------------------------CONTENT-THREE---------------------------------------*/
+
+  .Content-Container-Three {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .Content-Wrapper-Three {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content:center;
+    justify-content: center;
+    gap:35px 20px;
+    margin:0 auto;
+    max-width: 1300px;
+    margin-block: 30px;
+  }
+
+
+  .overview-content {
+    background-color:rgba(227, 237, 245, 0.597);
+    border-radius:5px;
+    height: 160px;
+  }
+
+
+
+  .page-views-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 30px;
+  
+  
+  }
+
+
+  .page-views-text {
+    margin-left: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+  }
+
+
+  .page-views-image {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+  
+  .page-views-image img {
+    width: 40px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+
+  .page-views-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 53px;
+  }
+
+
+  .page-views-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+
+  .page-views-numbers-text {
+    margin-left: 90px;
+    color:green;
+    font-size: 18px;
+  }
+
+
+
+  .youtube-likes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+
+  .youtube-likes-text {
+    margin-left: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .youtube-likes-image {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+
+  .youtube-likes-image img {
+    width: 40px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+  .youtube-likes-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 55px;
+  }
+
+
+  .youtube-likes-text-two {
+    font-size: 24px;
+    margin-left: 30px;
+    font-weight: bold;
+
+  }
+
+
+  .youtube-likes-numbers-text {
+    color:green;
+    font-size: 18px;
+    margin-left: 90px;
+  }
+
+
+
+
+  .fb-page-views-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 30px;    
+
+  }
+
+  .fb-page-views-image {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+  .fb-page-views-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 18px;
+
+  }
+
+
+  .fb-page-views-image img {
+    width: 30px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+  
+
+  .fb-page-views-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 55px;  
+  }
+
+
+  .fb-page-views-text-two {
+    font-size: 24px;
+    margin-left:20px;
+    font-weight: bold;
+    
+  }
+
+  .fb-page-views-likes-numbers {
+    color:green;
+    font-size: 18px;
+    margin-left: 90px;
+  }
+
+
+
+  .fb-likes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 26px;
+  }
+
+
+  .fb-likes-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 18px;
+  }
+
+  .fb-likes-image {
+    margin-top: -15px;
+    margin-left: 90px;
+  }
+
+
+  .fb-likes-image img {
+    width: 30px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+
+  .fb-likes-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+
+  .fb-likes-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 20px;
+    font-weight: bold;
+   
+  }
+
+  .fb-likes-numbers {
+    color:green;
+    font-size: 18px;
+    margin-left: 90px;
+  }
+
+
+
+
+  .twitter-retweet-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+  .twitter-retweet-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 18px;
+  }
+
+  .twitter-retweet-image {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+  .twitter-retweet-image img {
+    width: 45px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+
+  .twitter-retweet-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+
+  .twitter-retweet-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+
+  .twitter-likes-numbers-two {
+    color:green;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+
+  .twitter-likes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+
+  .twitter-likes-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 18px;
+  }
+
+  .twitter-likes-image {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+
+  .twitter-likes-image img {
+    width: 45px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+
+  .twitter-likes-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+
+  .twitter-likes-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+
+  .twitter-numbers {
+    color:green;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+
+  .instagram-profile-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .instagram-profile-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: -10px;
+  }
+
+  
+
+  .instagram-profile-image  {
+    margin-top: -30px;
+    margin-left: 90px;
+  }
+
+  .instagram-profile-image img {
+    width: 45px;
+    object-fit: contain;
+    margin-top: 13px;
+    mix-blend-mode: multiply;
+  }
+
+
+  .instagram-profile-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+
+  .instagram-profile-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .instagram-numbers {
+    color:green;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+
+  .instagram-likes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .instagram-likes-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: -10px;
+  }
+
+
+  .instagram-likes-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+
+  .instagram-likes-wrapper-two-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: -10px;
+  }
+
+  .instagram-numbers-two {
+    color:green;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+
+  #overview-today {
+    color:black
+  }
